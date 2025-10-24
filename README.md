@@ -3,7 +3,7 @@
 A simple Blogging Platform built using Node.js, Express.js, and MongoDB, with optional frontend support using React or HTML-CSS. This platform allows users to create, edit, and publish blog posts, while admins can manage users and moderate content.
 
 🚀 Features
-👩‍💼 Admin
+> Admin
 
 Manage users (add, edit, delete, block)
 
