@@ -7,24 +7,27 @@ ________________________________________________________________________________
 > Admin
 
 *Manage users (add, edit, delete, block)
+
 *Approve or delete posts
+
 *Moderate comments
 
 ✍️ User
 
-Register and log in
+* Register and log in
 
-Create, edit, and delete blog posts
+* Create, edit, and delete blog posts
 
-Comment on other posts
+* Comment on other posts
 
-Like and share posts
+* Like and share posts
 
 ⚙️ System
 
-Real-time updates for posts and comments
+* Real-time updates for posts and comments
 
-Optional email notifications for new followers or comments
+* Optional email notifications for new followers or comments
+  _________________________________________________________________________________________________________________________________________________
 
 🛠️ Tech Stack
 
