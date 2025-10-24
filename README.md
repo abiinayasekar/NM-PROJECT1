@@ -6,11 +6,11 @@ ________________________________________________________________________________
 🚀 Features
 > Admin
 
-Manage users (add, edit, delete, block)
+*Manage users (add, edit, delete, block)
 
-Approve or delete posts
+*Approve or delete posts
 
-Moderate comments
+*Moderate comments
 
 > User
 
@@ -46,28 +46,29 @@ Blogging-Platform/
 │
 ├── backend/
 
-│   ├── models/# User, Post & Comment schemas
+│     ├── models/# User, Post & Comment schemas
 
-│   ├── routes/        # API routes
+│     ├── routes/        # API routes
 
-│   ├── controllers/   # Request handlers
+│     ├── controllers/   # Request handlers
 
-│   ├── middleware/    # Auth & error handling
+│     ├── middleware/    # Auth & error handling
 
-│   ├── config/        # Database & environment config
+│     ├── config/        # Database & environment config
 
-│   └── server.js      # Main entry point
+│     └── server.js      # Main entry point
 │
 ├── frontend/
-│   ├── index.html
 
-│   ├── post.html
+│     ├── index.html
 
-│   ├── login.html
+│     ├── post.html
 
-│   ├── register.html
+│     ├── login.html
 
-│   └── dashboard.html
+│     ├── register.html
+
+│     └── dashboard.html
 │
 └── README.md
 __________________________________________________________________________________________________________________________________________________
