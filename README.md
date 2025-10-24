@@ -6,13 +6,13 @@ ________________________________________________________________________________
 🚀 Features
 > Admin
 
-*Manage users (add, edit, delete, block)
+Manage users (add, edit, delete, block)
 
-*Approve or delete posts
+Approve or delete posts
 
-*Moderate comments
+Moderate comments
 
-✍️ User
+> User
 
 * Register and log in
 
@@ -22,7 +22,7 @@ ________________________________________________________________________________
 
 * Like and share posts
 
-⚙️ System
+> System
 
 * Real-time updates for posts and comments
 
@@ -41,6 +41,7 @@ Other Tools: Nodemailer (email notifications), JWT (authentication), Postman (AP
 __________________________________________________________________________________________________________________________________________________
 
 📂 Project Structure
+
 Blogging-Platform/
 │
 ├── backend/
