@@ -31,13 +31,13 @@ ________________________________________________________________________________
 
 🛠️ Tech Stack
 
-Backend: Node.js, Express.js
+* Backend: Node.js, Express.js
 
-Database: MongoDB
+* Database: MongoDB
 
-Frontend (optional): React / HTML, CSS, Bootstrap or Tailwind CSS
+* Frontend (optional): React / HTML, CSS, Bootstrap or Tailwind CSS
 
-Other Tools: Nodemailer (email notifications), JWT (authentication), Postman (API testing)
+* Other Tools: Nodemailer (email notifications), JWT (authentication), Postman (API testing)
 __________________________________________________________________________________________________________________________________________________
 
 📂 Project Structure
@@ -76,51 +76,51 @@ Blogging-Platform/
 __________________________________________________________________________________________________________________________________________________
 
 ⚡ API Endpoints
+_________________________________________________________________________________________________________________________________________________
 🔐 Auth APIs
 
-POST /api/auth/register → Register a new user
+* POST /api/auth/register → Register a new user
 
-POST /api/auth/login → Login and get JWT token
+* POST /api/auth/login → Login and get JWT token
 
 📰 Post APIs
 
-POST /api/posts → Create a new post
+* POST /api/posts → Create a new post
 
-PUT /api/posts/:id → Edit a post
+* PUT /api/posts/:id → Edit a post
 
-DELETE /api/posts/:id → Delete a post
+* DELETE /api/posts/:id → Delete a post
 
-GET /api/posts → Get all posts
+* GET /api/posts → Get all posts
 
-GET /api/posts/:id → Get a single post
+* GET /api/posts/:id → Get a single post
 
 💬 Comment APIs
 
-POST /api/posts/:id/comments → Add a comment
+* POST /api/posts/:id/comments → Add a comment
 
-DELETE /api/comments/:id → Delete a comment
+* DELETE /api/comments/:id → Delete a comment
 
 👥 User APIs
 
-GET /api/users/:id → Get user profile
+* GET /api/users/:id → Get user profile
 
-PUT /api/users/:id → Update user profile
+* PUT /api/users/:id → Update user profile
 
-DELETE /api/users/:id → Delete user
+* DELETE /api/users/:id → Delete user
 
 🛠️ Installation & Setup
-
-Clone the repo
+_________________________________________________________________________________________________________________________________________________
+1.Clone the repo
 
 git clone https://github.com/yourusername/Blogging-Platform.git
 cd Blogging-Platform
 
-
-Install dependencies
+2.Install dependencies
 
 cd backend
 npm install
-
+__________________________________________________________________________________________________________________________________________________
 
 Setup environment variables
 
@@ -131,12 +131,11 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 EMAIL_USER=your_email@example.com   # (for email notifications)
 EMAIL_PASS=your_password
-
-
+_________________________________________________________________________________________________________________________________________________
 Run the server
 
 npm start
-
+__________________________________________________________________________________________________________________________________________________
 ✅ Testing
 
 Use Postman or Thunder Client to test the API endpoints.
