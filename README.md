@@ -40,41 +40,6 @@ ________________________________________________________________________________
 * Other Tools: Nodemailer (email notifications), JWT (authentication), Postman (API testing)
 __________________________________________________________________________________________________________________________________________________
 
-📂 Project Structure
-
-Blogging-Platform/
-│
-├── backend/
-│ 
-│     ├── models/# User, Post & Comment schemas
-│ 
-│     ├── routes/        # API routes
-│ 
-│     ├── controllers/   # Request handlers
-│ 
-│     ├── middleware/    # Auth & error handling
-│ 
-│     ├── config/        # Database & environment config
-│ 
-│     └── server.js      # Main entry point
-│
-│ 
-│ 
-├── frontend/
-│ 
-│     ├── index.html
-│ 
-│     ├── post.html
-│ 
-│     ├── login.html
-│ 
-│     ├── register.html
-│ 
-│     └── dashboard.html
-│
-└── README.md
-__________________________________________________________________________________________________________________________________________________
-
 ⚡ API Endpoints
 _________________________________________________________________________________________________________________________________________________
 🔐 Auth APIs
@@ -113,7 +78,8 @@ ________________________________________________________________________________
 _________________________________________________________________________________________________________________________________________________
 1.Clone the repo
 
-git clone https://github.com/yourusername/Blogging-Platform.git
+git clone https://github.com/abiinayasekar/NM-PROJECT1.git
+
 cd Blogging-Platform
 
 2.Install dependencies
